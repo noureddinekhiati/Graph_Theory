@@ -10,7 +10,7 @@ Following is an example of an undirected graph with 5 vertices.
 
 ![image](https://user-images.githubusercontent.com/46073873/55177167-dd2fb380-5182-11e9-94e0-9a212ea9fd1f.png)
 
-Implimenting Graph using Adjacent list
+# 1 Implimenting Graph using Adjacent list
 
 Adjacency List:
 An array of lists is used. Size of the array is equal to the number of vertices. Let the array be array[]. 
