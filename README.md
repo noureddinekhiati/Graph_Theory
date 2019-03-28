@@ -10,7 +10,7 @@ Following is an example of an undirected graph with 5 vertices.
 
 ![image](https://user-images.githubusercontent.com/46073873/55177167-dd2fb380-5182-11e9-94e0-9a212ea9fd1f.png)
 
-# 1-Implimenting Graph using Adjacent list
+# 1 - Implimenting Graph using Adjacent list
 
 Adjacency List:
 An array of lists is used. Size of the array is equal to the number of vertices. Let the array be array[]. 
@@ -22,4 +22,7 @@ Following is adjacency list representation of the above graph.
 ![image](https://user-images.githubusercontent.com/46073873/55177313-3e578700-5183-11e9-8da7-4d13ae86a9ee.png)
 
 
+# 2 - Breadth First Search or BFS for a Graph
+Breadth-first search (BFS) is an algorithm for traversing or searching tree or graph data structures. It starts at the tree root (or some arbitrary node of a graph, sometimes referred to as a 'search key'), and explores all of the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level.
 
+![image](https://user-images.githubusercontent.com/46073873/55178235-4adcdf00-5185-11e9-9eba-bd6c0eb1277e.png)
