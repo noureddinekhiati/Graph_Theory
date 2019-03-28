@@ -1,0 +1,38 @@
+#include<bits/stdc++.h> 
+using namespace std; 
+  
+
+void add(vector<int> adj[], int u, int v) 
+{ 
+    adj[u].push_back(v); 
+    adj[v].push_back(u); 
+} 
+  
+ 
+void print(vector<int> neighboor[], int V) 
+{ 
+    for (int v = 0; v < V; ++v) 
+    { 
+        cout << "\n Adjacency list of vertex "
+             << v << "\n head "; 
+        for (auto x : nrighboor[v]) 
+           cout << "-> " << x; 
+        printf("\n"); 
+    } 
+} 
+  
+// Driver code 
+int main() 
+{ 
+    int V = 5; 
+    vector<int> neighboor[V]; 
+    add(neighboor, 0, 1); 
+    add(neighboor, 0, 9); 
+    add(neighboor, 1, 65); 
+    add(neighboor, 1, 7); 
+    add(neighboor, 1, 3); 
+    add(neighboor, 2, 23); 
+    add(neighboor, 3, 10); 
+    print(neighboor, V); 
+    return 0; 
+} 
